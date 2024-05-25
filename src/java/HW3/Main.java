@@ -20,7 +20,7 @@ public class Main {
         duplicateEachChar(str1);
     }
 
-    public static void minMaxString(String str1, String str2, String str3) {
+    private static void minMaxString(String str1, String str2, String str3) {
 
         String shortestString = str1;
         String longestString = str1;
@@ -44,7 +44,7 @@ public class Main {
         System.out.println("Минимальная строка: " + shortestString + ". Длина: " + shortestString.length());
         System.out.println("Максимальная строка: " + longestString + ". Длина: " + longestString.length());
     }
-    public static void lessThenAvgString(String str1, String str2, String str3) {
+    private static void lessThenAvgString(String str1, String str2, String str3) {
 
         double avgLength = (str1.length() + str2.length() + str3.length()) / 3.0;
 
@@ -61,7 +61,7 @@ public class Main {
         }
     }
 
-    public static String diffCharString(String str1, String str2, String str3) {
+    private static String diffCharString(String str1, String str2, String str3) {
 
         String result = "";
 
@@ -92,7 +92,7 @@ public class Main {
         return result;
     }
 
-    public static void duplicateEachChar(String str1) {
+    private static void duplicateEachChar(String str1) {
 
         String[] arrayStr = str1.split("");
         List<String> listString = new LinkedList<>(Arrays.asList(arrayStr));
