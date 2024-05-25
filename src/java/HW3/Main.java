@@ -1,7 +1,5 @@
 package src.java.HW3;
 
-import com.sun.source.doctree.SeeTree;
-
 import java.util.*;
 
 public class Main {
@@ -43,8 +41,8 @@ public class Main {
             longestString = str3;
         }
 
-        System.out.println("Минимальная строкв: " + shortestString + ". Длина: " + shortestString.length());
-        System.out.println("Максимальная строкв: " + longestString + ". Длина: " + longestString.length());
+        System.out.println("Минимальная строка: " + shortestString + ". Длина: " + shortestString.length());
+        System.out.println("Максимальная строка: " + longestString + ". Длина: " + longestString.length());
     }
     public static void lessThenAvgString(String str1, String str2, String str3) {
 
