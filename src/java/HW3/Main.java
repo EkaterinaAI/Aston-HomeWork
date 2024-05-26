@@ -44,6 +44,7 @@ public class Main {
         System.out.println("Минимальная строка: " + shortestString + ". Длина: " + shortestString.length());
         System.out.println("Максимальная строка: " + longestString + ". Длина: " + longestString.length());
     }
+
     private static void lessThenAvgString(String str1, String str2, String str3) {
 
         double avgLength = (str1.length() + str2.length() + str3.length()) / 3.0;
