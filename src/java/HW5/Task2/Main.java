@@ -24,7 +24,6 @@ public class Main {
         System.out.println("Сотрудник с максимальное ЗП: " + employeeMaxSalary(listOfEmployee));
         System.out.println("Сотрудники в HR отделе: " + listOfEmployeeHR(listOfEmployee));
         System.out.println("Средняя зарплата сотрудников: " + avgSalary(listOfEmployee));
-
     }
 
     //Создать список сотрудников
@@ -76,5 +75,4 @@ public class Main {
                             .orElse(Double.NaN);
         return avgSalary;
     }
-
 }
