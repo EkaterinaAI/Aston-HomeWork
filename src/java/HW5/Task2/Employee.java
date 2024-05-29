@@ -1,7 +1,5 @@
 package src.java.HW5.Task2;
 
-import java.util.Comparator;
-
 public class Employee implements Comparable<Employee> {
 
     private String name;
