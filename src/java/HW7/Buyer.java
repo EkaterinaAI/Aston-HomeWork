@@ -14,7 +14,7 @@ public class Buyer implements IBuyer, IUseBasket {
 
     @Override
     public void enterToMarket() {
-        System.out.println("Покупатель " + id + " вошел в магазин");
+        System.out.println("Покупатель " + id + " вошел в продуктовый магазин");
     }
 
     @Override
